@@ -9,6 +9,6 @@ deploy:
   provider: heroku
   app: sentinellog
   api_key:
-    secure: e9884d48-6174-4c22-a4c0-397b5fb5ae2c
+    secure: e9b8b970-0148-46cc-a62d-aaabdd9af120
   on:
     branch: master
