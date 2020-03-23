@@ -9,7 +9,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: 7ca71881-ec95-4d6e-8944-dd195d953905
+    secure: aa1113be-57f9-4c13-8622-4b0e788b1b2e
   app: sentinellog
   on:
     branch: master
