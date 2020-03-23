@@ -1,4 +1,3 @@
- 
 language: node_js
 node_js:
 - '10'
@@ -8,8 +7,8 @@ script:
 - npm test
 deploy:
   provider: heroku
-  api_key:
-    secure: c4b04dfd-e1b6-44fb-9252-f98c5f19fa40
   app: sentinellog
+  api_key:
+    secure: e9884d48-6174-4c22-a4c0-397b5fb5ae2c
   on:
     branch: master
