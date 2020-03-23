@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS sentinel_log_dev;
+CREATE DATABASE IF NOT EXISTS sentinel_log_test;
+
