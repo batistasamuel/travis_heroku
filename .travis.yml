@@ -7,8 +7,8 @@ script:
 - npm test
 deploy:
   provider: heroku
-  app: sentinellog
   api_key:
-    secure: 2GOP9ulO_-A3bFuZbLSN1g
+    secure: hRskxtIYLZfQ4rsp2yBlR0nMsM3CFihSHAT9JwfMCQByefYdV0aEfoJVeAhVJKMTsvhMsu41Fp1GTpe29pqAFgSLCi1IVjW0YdKWu2kABFLHmhoePjYRZv5eLAhim5/N8d7x+4qW+yro2PGt7lgwbJLpK2LDT1qCCpcNChKyu/Gm0VThczALXGtsx8Us9/ITR9dtoXfMQHGh4PvYCmMcI0QczYul4GNath3u6yCL1bhGiWSTZUK9bjWiQQdJ+ezC0c121TnCo3Iivho/SuhnV6uW+MiO0Mln+ijr/DuNQSyOBNBZQbAXVDlwuvAJ/mMGtWoqyMV5jJRCoIu4CPRu/IaDQtPAYGfXeBOBcdK0fgJpqySPrqSvkZePp9yMmUTKWEQ5QDjGck4PpKUkm3jCbXRTbCkf9ghFAu8n4zsnaAX65OKnN2p/EZYnt/B9TqSjhwTQwYhoZH04TH2RCmUTey+FNz6W9/F0UfuxI4VG1bjJezLHqUdxDUhYZMoBQ31052UVMY1ck9hZBSda32AJ0/UiwTPwjX6FXTGxJeJ6Qtk5PnVrt6wa4NG1x9O6lkpoS3/iSHtSAlvTiEpcOHqzuRcAuiID9huf5JC49TrMQdCwSPcn4ecRxzJD+Q9Da5pMJMgS9CAUo/7huAmN7TdYvlq0xsTHhK/8DYE83vVVbqI=
+  app: sentinellog
   on:
-    branch: master
+    repo: batistasamuel/travis_heroku
