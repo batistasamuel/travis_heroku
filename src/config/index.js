@@ -2,10 +2,10 @@ require('dotenv').config({path: 'variables.env'})
 
 let Database
 
-if (NODE_ENV === 'production' || 'prod'){
-    Database = 'ft48eyekd474dndk'
-} else {
+if (`${process.env.NODE_ENV}` !== 'production' || 'prod'){
     Database = `sentinel_log_${process.env.NODE_ENV}`
+} else {
+    Database = 'ft48eyekd474dndk'
 }
 
 module.exports = {
