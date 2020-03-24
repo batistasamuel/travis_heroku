@@ -8,11 +8,11 @@ const passwordReset = require('../models/passwordReset')
 
 let connection
 
-if (process.env.JAWSDB_URL){
+//if (process.env.JAWSDB_URL){
     connection = new Sequelize(process.env.JAWSDB_URL)
-} else {
-    connection = new Sequelize(dbConfig)
-}
+//} else {
+//    connection = new Sequelize(dbConfig)
+//}
 
 Users.init(connection)
 Logs.init(connection)
