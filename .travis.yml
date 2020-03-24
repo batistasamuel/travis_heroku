@@ -5,4 +5,10 @@ install:
 - npm install
 script:
 - npm test
-
+deploy:
+  provider: heroku
+  api_key:
+    secure: s8qDaNdhY6xW/G4IewZqE6haO/0Bag0Y7ePaBYyK3//9X41gOuwSSliarTMlQeaz+x3cQ7hp7xf6y3D5Y102IA6VYONTPkh4bahES6k8VyBWQW8LiZQ2kCjr7zlm+dk1sRYccP3EX4eLuyeL/QpN12RmNFDMFHJOyHObsD9bFAA6XNTrK2NSi9YT+FCEHSn2f9WAhLVeEfTt0wOYGMxoqMtKEMIMoR0RNieNGq0mFDrGiWcKnag/nWkSxhXXNRQ/4BC3hVORLrjWougVGa8XL5DbPmTpaEeBGcpxb6TUrLd6nsRuB1gIJvaV9/ilSC7Cu2AXrFPQpZv3C7BaBY0Nxvx4J4KIF7VbnMmR4H9lkm4iXXzKYKHEqDSxQHrZ/Os+fiDpwzOW9X7BZ6C7VyP3ndu4QXJhIOkNl554XgkC4zIvcLLyFGvM3mZ/yFu833UxKtcDMY5lm+NgnGWzBumEZgsGGwUrqO2xl9r7tIQyxB34gORU4BGGi8zGKsg55IG4ud+iAU/2MlrKbhoA5gt7Be+5xIyRTMNE+DKL63c+GBehqZoZvMvCHtqvBtgPf8PbMhBLRZ4Qp8pRYylBn3GhLevCfFWhji/F9iX/3NMCmoHBugSSwii5Wpmm3nPpjQy4kMRVudUL78cgS0UDIWXvvEVQq6BTA3tMcpjaGXCn/Ok=
+  app: sentinellog
+  on:
+    repo: batistasamuel/travis_heroku
