@@ -4,7 +4,7 @@
   "description": "## Objetivo",
   "main": "srv/bin/www",
   "scripts": {
-    "start": "node src/bin/www",
+    "start": "node src/bin/www && sequelize db:migrate",
     "dev": "nodemon src/bin/www",
     "test": "echo \"Testes nao implementados\" && exit 0"
   },
