@@ -2,7 +2,7 @@
   "name": "central-erros",
   "version": "1.0.0",
   "description": "## Objetivo",
-  "main": "index.js",
+  "main": "srv/bin/www",
   "scripts": {
     "start": "node src/bin/www",
     "dev": "nodemon src/bin/www",
