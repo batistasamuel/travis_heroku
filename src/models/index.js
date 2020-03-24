@@ -7,9 +7,9 @@ const Applications = require('../models/applications')
 const passwordReset = require('../models/passwordReset')
 
 let connection
-console.log(process.env.JAWSDB_URL)
+const JAWSDB_URL = 'mysql://qca1h6amymitf6od:zbq2p57134zshbmo@axxb6a0z2kydkco3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/ft48eyekd474dndk'
 //if (process.env.JAWSDB_URL){
-    connection = new Sequelize(process.env.JAWSDB_URL)
+    connection = new Sequelize(JAWSDB_URL)
 //} else {
 //    connection = new Sequelize(dbConfig)
 //}
