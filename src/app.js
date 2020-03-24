@@ -13,4 +13,3 @@ app.use(bodyParser.json())
 app.use('/v1', routes)
 
 module.exports = { app }
-

@@ -7,4 +7,3 @@ router.post('/', controller.login)
 router.post('/renew', auth.validate, controller.renew)
 
 module.exports = router
-

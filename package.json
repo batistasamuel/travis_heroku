@@ -1,23 +1,23 @@
 {
-  "name": "sentinellog",
+  "name": "central-erros",
   "version": "1.0.0",
   "description": "## Objetivo",
   "main": "index.js",
   "scripts": {
     "start": "node src/bin/www",
     "dev": "nodemon src/bin/www",
-    "test": "jest test/users.test.js"
+    "test": "jest test/logs.test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/batistasamuel/travis_heroku.git"
+    "url": "git+https://github.com/codenation-dev/squad-5-ad-nodejs-kroton-1.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com//batistasamuel/travis_heroku/issues"
+    "url": "https://github.com/codenation-dev/squad-5-ad-nodejs-kroton-1/issues"
   },
-  "homepage": "https://github.com//batistasamuel/travis_heroku#readme",
+  "homepage": "https://github.com/codenation-dev/squad-5-ad-nodejs-kroton-1#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",

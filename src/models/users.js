@@ -37,4 +37,3 @@ class users extends Model {
 }
 
 module.exports = users
-

@@ -15,4 +15,3 @@ router.delete('/:logId', controller.delete)
 router.post('/:logId/archive', controller.archive)
 
 module.exports = router
-

@@ -19,4 +19,3 @@ class applications extends Model {
 }
 
 module.exports = applications
-

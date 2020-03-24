@@ -51,4 +51,3 @@ Login.renew = async (req, res, next) => {
 }
 
 module.exports = Login
-

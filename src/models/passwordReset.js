@@ -26,4 +26,4 @@ class passwordReset extends Model {
 }
 
 module.exports = passwordReset
-
+    

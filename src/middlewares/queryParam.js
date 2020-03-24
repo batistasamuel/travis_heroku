@@ -118,4 +118,3 @@ const processEqualOperator = (value) => {
 
   return { [Op.eq]: value }
 }
-

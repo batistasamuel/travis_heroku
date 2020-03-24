@@ -30,3 +30,5 @@ class logs extends Model {
 
 module.exports = logs
 
+
+    
