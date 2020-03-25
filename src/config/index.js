@@ -15,6 +15,7 @@ module.exports = {
     password: process.env.DB_PASS,
     database: Database,
     port: process.env.DB_PORT,
+    logging:false,
     define:{
         timestamps:true,
     },
