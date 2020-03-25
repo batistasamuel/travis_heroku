@@ -2,7 +2,7 @@ require('dotenv').config({path: 'variables.env'})
 
 let Database
 
-if (`${process.env.NODE_ENV}` !== 'production'){
+if (`${process.env.NODE_ENV}` !== 'prod'){
     Database = `sentinel_log_${process.env.NODE_ENV}`
 } else {
     Database = process.env.DB_DATABASE
