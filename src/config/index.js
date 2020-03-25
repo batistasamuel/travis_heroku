@@ -5,7 +5,7 @@ let Database
 if (`${process.env.NODE_ENV}` !== 'production'){
     Database = `sentinel_log_${process.env.NODE_ENV}`
 } else {
-    Database = 'wu1udel0o4oh6t4w'
+    Database = process.env.DB_DATABASE
 }
 
 module.exports = {
