@@ -4,7 +4,7 @@
   "description": "## Objetivo",
   "main": "srv/bin/www",
   "scripts": {
-    "start": "node src/bin/www",
+    "start": "npx sequelize db:migrate && node src/bin/createAdmin && node src/bin/www",
     "dev": "nodemon src/bin/www",
     "test": "jest test/applications.test.js"
   },
