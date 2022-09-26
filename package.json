@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/codenation-dev/squad-5-ad-nodejs-kroton-1#readme",
   "dependencies": {
-    "aws-cdk": "^1.31.0",
+    "aws-cdk": "^1.174.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
